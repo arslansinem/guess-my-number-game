@@ -1,0 +1,80 @@
+*{
+    margin: 0px !important;
+}
+
+.game-section{
+    background-image: url(/img/0eaef55d7eebc902f81dc94e77724c86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1 {
+    font-family: 'Handjet', cursive !important;
+    font-size: 100px;
+    color: #50413e;
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.number-input{
+    border-radius: 15px;
+    border: 1px solid #50413e;
+    height: 35px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.number-input:focus-visible{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.submit-button{
+    height: 35px;
+    background-color:#C7EDE6;
+    border: 1px #50413e solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px;
+    width: 70px;
+    border-radius: 15PX;
+}
+
+.result-message{
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 180px;
+}
+
+.footer-section{
+    background-color: #50413e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.copyright{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    color: antiquewhite;
+}
